@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Datasets (DO NOT UPLOAD - too large)
+datasets/
+*.pkl
+*.avi
+*.mp4
+*.zip
+
+# Raw caches (keep only the small .npz / .json files)
+cache/ubfc_traces/
+runs/diag/*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Overleaf / LaTeX build files
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.pdf

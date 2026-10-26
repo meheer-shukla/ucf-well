@@ -1,0 +1,97 @@
+{
+  "binary": {
+    "source_only": {
+      "confusion": [
+        [
+          2045,
+          765
+        ],
+        [
+          191,
+          1344
+        ]
+      ],
+      "macro_f1_pooled": 0.7740969687002519,
+      "n_test": 4345,
+      "class_names": [
+        "baseline",
+        "stress"
+      ]
+    },
+    "full_cmht": {
+      "confusion": [
+        [
+          2699,
+          111
+        ],
+        [
+          980,
+          555
+        ]
+      ],
+      "macro_f1_pooled": 0.6680927686031279,
+      "n_test": 4345,
+      "class_names": [
+        "baseline",
+        "stress"
+      ]
+    }
+  },
+  "3class": {
+    "source_only": {
+      "confusion": [
+        [
+          1106,
+          599,
+          1105
+        ],
+        [
+          73,
+          1234,
+          228
+        ],
+        [
+          316,
+          241,
+          258
+        ]
+      ],
+      "macro_f1_pooled": 0.4707103064380602,
+      "n_test": 5160,
+      "class_names": [
+        "baseline",
+        "stress",
+        "amusement"
+      ]
+    },
+    "full_cmht": {
+      "confusion": [
+        [
+          1933,
+          76,
+          801
+        ],
+        [
+          731,
+          517,
+          287
+        ],
+        [
+          600,
+          44,
+          171
+        ]
+      ],
+      "macro_f1_pooled": 0.42581368333075736,
+      "n_test": 5160,
+      "class_names": [
+        "baseline",
+        "stress",
+        "amusement"
+      ]
+    }
+  },
+  "n_seeds": 5,
+  "statistic": "pooled macro-F1 (concatenated predictions)",
+  "note": "Pooled F1 differs from the per-subject mean F1 in Table III of the paper."
+}

@@ -1,0 +1,18 @@
+========================================================================
+SQI FUSION SIGNIFICANCE TEST  (n = 42 subjects)
+========================================================================
+
+Absolute HR error (bpm), mean [95% bootstrap CI]:
+  forehead_only   5.932  [4.343, 7.796]
+  uniform         5.841  [4.236, 7.778]
+  sqi_fusion      5.375  [3.733, 7.378]
+
+Paired Wilcoxon signed-rank tests:
+  SQI vs forehead           W=  257.0  p=0.0150*  d=-0.268  dMAE=-0.557 [-1.206, +0.000]
+  SQI vs uniform            W=  205.5  p=0.0448*  d=-0.306  dMAE=-0.466 [-0.996, -0.093]
+  uniform vs forehead       W=  372.5  p=0.3232   d=-0.039  dMAE=-0.091 [-0.763, +0.609]
+
+Significance codes: * p < 0.05; no multiple-comparison correction
+
+[result] SQI beats uniform at p < 0.05
+[result] SQI beats forehead-only at p < 0.05
